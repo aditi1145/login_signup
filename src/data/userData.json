@@ -1,21 +1,7 @@
 [
     {
-        "id":"0235325",
-        "username":"Anny",
-        "email":"abc@gamil.com",
-        "password":"abcdef",
-        "contactNumber":94835934859
-    },
-    {
         "id":"34324231",
         "username":"Admin",
-        "email":"abc@gamil.com",
-        "password":"GDT",
-        "contactNumber":94835934859
-    },
-    {
-        "id":"34324231",
-        "username":"Admin2",
         "email":"abc@gamil.com",
         "password":"GDT",
         "contactNumber":94835934859
