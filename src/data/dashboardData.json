@@ -1,0 +1,38 @@
+{
+  "cards": [
+    {
+      "balance": 5756,
+      "cardHolder": "Eddy Cusuma",
+      "validThru": "12/22",
+      "lastFourDigits": "1234"
+    },
+    {
+      "balance": 5756,
+      "cardHolder": "Eddy Cusuma",
+      "validThru": "12/22",
+      "lastFourDigits": "1234"
+    }
+  ],
+  "transactions": [
+    { "type": "Deposit", "source": "My Card", "date": "28 January 2021", "amount": 850,"icon":"icon1" },
+    { "type": "Deposit", "source": "Paypal", "date": "25 January 2021", "amount": 2500,"icon":"icon2" },
+    { "type": "Transfer", "to": "Jemi Wilson", "date": "21 January 2021", "amount": 5400,"icon":"icon3" }
+  ],
+  "weeklyActivity": {
+    "deposit": [300, 400, 300, 500, 400, 450, 300],
+    "withdraw": [100, 200, 150, 100, 300, 250, 200]
+  },
+  "expenseStatistics": [
+    { "category": "Entertainment", "value": 30 },
+    { "category": "Bill Expense", "value": 15 },
+    { "category": "Investment", "value": 20 },
+    { "category": "Others", "value": 35 }
+  ],
+  "balanceHistory": [200, 400, 300, 500, 600, 400, 800],
+  "quickTransfer": [
+    { "name": "Livia Bator", "role": "CEO", "img":"person1" },
+    { "name": "Randy Press", "role": "Director","img":"person2"  },
+    { "name": "Workman", "role": "Designer","img":"person3"  }
+  ]
+}
+ 

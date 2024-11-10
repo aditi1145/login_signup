@@ -1,0 +1,255 @@
+.signup-container {
+
+  display: flex;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 0 40px; /* Add some padding for smaller screens */
+  
+}
+/* left */
+
+.signup-left {
+  
+  flex: 1;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.signup-left h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.signup-left b {
+  font-size: 30px;
+  color: #333;
+}
+
+.signup-left p {
+  font-size: 17px;
+  margin: 10px 0;
+  color: #666;
+}
+
+.signup-left span {
+  color: #6a3adb;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-left span:hover {
+  text-decoration: underline;
+}
+
+/* Illustration */
+.signup-container .illustration {
+  position: absolute;
+  width: 220px;
+  bottom:0%;
+  left:40%;
+}
+.signup-right .password-field {
+  position: relative;
+  /* width: 100%; */
+  margin: 0;
+  
+  /* border: 2px solid red; */
+  
+   /* margin-bottom: 1rem;  */
+} 
+.password-field input{
+  width: 88.5%;
+}
+.pwd-hide {
+  position: absolute;
+}
+ .signup-right {
+    padding: 60px;
+    flex: 1;
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+
+    background-color: #fff;
+    /* padding: 30px;
+    width: 300px; */
+    border-radius: 10px;
+  
+  }
+  .signup-right h2 {
+    position: relative;
+    right:28.5%;
+    font-size: 32px;
+    font-weight: 600;
+    /* margin-bottom: 20px; */
+    /* margin-left: 0px; */
+    color: black;
+  }
+  .signup-right input[type="text"],
+  .signup-right input[type="password"],
+  .signup-right input[type="email"] {
+    width: 92%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #f3eafd;
+  }
+  .signup-right form {
+    display: flex;
+    flex-direction: column; 
+    background-color: #fff;
+    /* color: black;  */
+    width:100%;
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+    /* max-width: 500px; */
+  }
+  
+ /* General input styling */
+/* form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+} */
+
+/* Password field wrapper */
+
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+  
+  .register-button {
+    padding: 10px;
+    background-color: #6a3adb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+ 
+  span{
+    color:#6a3adb;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  span:hover{
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  @media (max-width: 768px) {
+    .signup-container {
+        flex-direction: column;
+        /* padding: 20px; */
+        align-items: left;
+        padding-top: 10px;
+    }
+  
+    /* Hide illustration on smaller screens */
+    .signup-container .illustration {
+        display: none;
+    }
+  
+    /* Adjust left and right sections */
+    .signup-left,
+    .signup-right {
+        width: 100%;
+        max-width: none; /* Remove max-width for better scaling */
+        /* padding: 20px; */
+    }
+  
+    .signup-left {
+        padding-top: 0%;
+        padding-left: 33%;
+        align-items: left;
+        text-align: left; /* Center-align text for better readability */
+    }
+  
+    .signup-left h1 {
+        font-size: 28px; /* Reduce font size */
+    }
+  
+    .signup-left p {
+        font-size: 14px;
+    }
+  }
+  @media (min-width: 375px) and (max-width: 1024px) {
+    .signup-right {
+      padding: 20px;
+      padding-top: 0px;
+  }
+
+  .signup-right h2 {
+      font-size: 24px; /* Further reduce font size */
+  }
+
+  .signup-right input[type="text"],
+  .signup-right input[type="password"] {
+      padding: 12px;
+      font-size: 14px;
+  }
+
+  .register-button {
+      padding: 12px;
+      font-size: 14px;
+  }
+
+  .social-icons img {
+      width: 30px;
+      height: 30px;
+  }
+}
+
+.signup-right{
+  padding: 0px;
+}
+.signup-right form {
+  display: flex;
+  flex-direction: column; 
+  background-color: #fff;
+  /* color: black;  */
+  width:80%;
+  
+  /* border: 2px solid red; */
+  /* justify-content: center; */
+  /* max-width: 500px; */
+}
+  
+    
+  
+   
+  
